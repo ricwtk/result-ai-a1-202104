@@ -1,0 +1,27 @@
+[1/8] Move snake in direction e
+[2/8] Move snake in direction e
+[3/8] Move snake in direction e
+[4/8] Move snake in direction e
+[5/8] Move snake in direction e
+[6/8] Move snake in direction e
+[7/8] Move snake in direction e
+[8/8] Move snake in direction e
+[1/10] Move snake in direction s
+[2/10] Move snake in direction s
+[3/10] Move snake in direction s
+[4/10] Move snake in direction w
+[5/10] Move snake in direction w
+[6/10] Move snake in direction w
+[7/10] Move snake in direction w
+[8/10] Move snake in direction w
+[9/10] Move snake in direction w
+[10/10] Move snake in direction w
+[1/7] Move snake in direction s
+[2/7] Move snake in direction e
+[3/7] Move snake in direction e
+[4/7] Move snake in direction e
+[5/7] Move snake in direction e
+[6/7] Move snake in direction e
+[7/7] Move snake in direction e
+[1/10] Move snake in direction w
+stop biting yourself

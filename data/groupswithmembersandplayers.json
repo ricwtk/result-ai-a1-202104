@@ -1,0 +1,1069 @@
+[
+  {
+    "name": "Island Coders",
+    "members": [
+      {
+        "name": "Muhammad Nabeel Rasheed Varsally",
+        "id": "19025634"
+      },
+      {
+        "name": "Raveesh Shibchurn",
+        "id": "19053156"
+      },
+      {
+        "name": "Yutashna Gunnoo",
+        "id": "19063304"
+      },
+      {
+        "name": "Eltigani Hamadelniel Elfatih",
+        "id": "17087610"
+      }
+    ],
+    "players": [
+      {
+        "name": "informed player",
+        "informed": "True",
+        "folder": "Group05Player1"
+      },
+      {
+        "name": "uninformed player",
+        "informed": "False",
+        "folder": "Group05Player2"
+      }
+    ]
+  },
+  {
+    "name": "Banana",
+    "members": [
+      {
+        "name": "Sarah Low Ren Ern",
+        "id": "18122614"
+      },
+      {
+        "name": "Low Jun Jie",
+        "id": "19041409"
+      },
+      {
+        "name": "sean Suraj Nathan",
+        "id": "17003807"
+      },
+      {
+        "name": "Mukesh Rajah",
+        "id": "19028281"
+      }
+    ],
+    "players": [
+      {
+        "name": "Banana2",
+        "informed": "True",
+        "folder": "Group14Player1"
+      }
+    ]
+  },
+  {
+    "name": "TBC",
+    "members": [
+      {
+        "name": "Yan Yi Cheng",
+        "id": "17109505"
+      },
+      {
+        "name": "Ian How Yu Xuan",
+        "id": "18032649"
+      },
+      {
+        "name": "Christine Law Han Ni",
+        "id": "18056796"
+      },
+      {
+        "name": "Bryan Eeo Zhe Yu",
+        "id": "20016960"
+      }
+    ],
+    "players": [
+      {
+        "name": "BFS",
+        "informed": "False",
+        "folder": "Group31Player1"
+      },
+      {
+        "name": "Greedy",
+        "informed": "True",
+        "folder": "Group31Player2"
+      }
+    ]
+  },
+  {
+    "name": "Big bois",
+    "members": [
+      {
+        "name": "Tan Hanley",
+        "id": "18033936"
+      },
+      {
+        "name": "Lim Shao Yong",
+        "id": "19052059"
+      },
+      {
+        "name": "Lau Zhen Yu",
+        "id": "18024182"
+      },
+      {
+        "name": "Keanu Tan Soon Jie",
+        "id": "18020552"
+      }
+    ],
+    "players": [
+      {
+        "name": "Breadth-First Search (BFS) Algorithm",
+        "informed": "False",
+        "folder": "Group25Player1"
+      },
+      {
+        "name": "Greedy Best-First Search (GBFS) Algorithm",
+        "informed": "True",
+        "folder": "Group25Player2"
+      }
+    ]
+  },
+  {
+    "name": "yes",
+    "members": [
+      {
+        "name": "Zahaen Hilmie",
+        "id": "17076407"
+      },
+      {
+        "name": "Kok Wui Lee",
+        "id": "17069469"
+      },
+      {
+        "name": "Goh Wai Hoong",
+        "id": "17068826"
+      },
+      {
+        "name": "Lee Jyh Yong",
+        "id": "17074683"
+      }
+    ],
+    "players": [
+      {
+        "name": "December Sky (GBFS)",
+        "informed": "True",
+        "folder": "Group33Player1"
+      },
+      {
+        "name": "January Sky (BFS)",
+        "informed": "False",
+        "folder": "Group33Player2"
+      }
+    ]
+  },
+  {
+    "name": "Four Stooges",
+    "members": [
+      {
+        "name": "Amrita Menon",
+        "id": "17029596"
+      },
+      {
+        "name": "Marcus Teow",
+        "id": "19024371"
+      },
+      {
+        "name": "Muhammad Hafiz",
+        "id": "16027344"
+      },
+      {
+        "name": "Liew Tze Chen",
+        "id": "18032730"
+      }
+    ],
+    "players": [
+      {
+        "name": "A*Player",
+        "informed": "True",
+        "folder": "Group02Player1"
+      },
+      {
+        "name": "BFS Player",
+        "informed": "False",
+        "folder": "Group02Player2"
+      }
+    ]
+  },
+  {
+    "name": "bt smeli",
+    "members": [
+      {
+        "name": "Bryan Tang",
+        "id": "18041772"
+      },
+      {
+        "name": "Chun Hou",
+        "id": "18043547"
+      },
+      {
+        "name": "Wei Jun",
+        "id": "18034223"
+      },
+      {
+        "name": "Weng Xi",
+        "id": "18043521"
+      }
+    ],
+    "players": [
+      {
+        "name": "Bryan Tang",
+        "informed": "False",
+        "folder": "Group10Player1"
+      },
+      {
+        "name": "Chun Hou",
+        "informed": "True",
+        "folder": "Group10Player2"
+      }
+    ]
+  },
+  {
+    "name": "IDK",
+    "members": [
+      {
+        "name": "Hong Ren Shen",
+        "id": "18088880"
+      },
+      {
+        "name": "Eric Chong Chi Kit",
+        "id": "18084491"
+      }
+    ],
+    "players": [
+      {
+        "name": "Informed player",
+        "informed": "True",
+        "folder": "Group06Player1"
+      },
+      {
+        "name": "Uninformed player",
+        "informed": "False",
+        "folder": "Group06Player2"
+      }
+    ]
+  },
+  {
+    "name": "Smart AI",
+    "members": [
+      {
+        "name": "Theysigan",
+        "id": "17072182"
+      },
+      {
+        "name": "Raguram",
+        "id": "18068718"
+      },
+      {
+        "name": "Puvanesh",
+        "id": "16029423"
+      },
+      {
+        "name": "Muhammad Mahad Niaz",
+        "id": "19053131"
+      }
+    ],
+    "players": [
+      {
+        "name": "informed search player",
+        "informed": "True",
+        "folder": "Group30Player1"
+      },
+      {
+        "name": "uninformed search player",
+        "informed": "False",
+        "folder": "Group30Player2"
+      }
+    ]
+  },
+  {
+    "name": "HACK O' HOLICS",
+    "members": [
+      {
+        "name": "Yap Cia Ing",
+        "id": "19075720"
+      },
+      {
+        "name": "Karishma Raveendran",
+        "id": "18038810"
+      },
+      {
+        "name": "Hew Chen Yang",
+        "id": "19071695"
+      },
+      {
+        "name": "Yeow Wei Zen",
+        "id": "19079128"
+      }
+    ],
+    "players": [
+      {
+        "name": "uninformed",
+        "informed": "False",
+        "folder": "Group32Player1"
+      },
+      {
+        "name": "informed",
+        "informed": "True",
+        "folder": "Group32Player2"
+      }
+    ]
+  },
+  {
+    "name": "5Heads",
+    "members": [
+      {
+        "name": "Leo Paul Larkin",
+        "id": "18088971"
+      },
+      {
+        "name": "Thevendren",
+        "id": "18067074"
+      },
+      {
+        "name": "Fun Kok Fui",
+        "id": "18047829"
+      },
+      {
+        "name": "Ng Jun Ren",
+        "id": "17098302"
+      }
+    ],
+    "players": [
+      {
+        "name": "bfs",
+        "informed": "False",
+        "folder": "Group18Player1"
+      },
+      {
+        "name": "Greedy Best First Search",
+        "informed": "True",
+        "folder": "Group18Player2"
+      }
+    ]
+  },
+  {
+    "name": "MILO",
+    "members": [
+      {
+        "name": "TEOH SHI HONG",
+        "id": "19072735"
+      },
+      {
+        "name": "LAU WEI XUAN",
+        "id": "19081199"
+      },
+      {
+        "name": "SENG WEN LONG",
+        "id": "20076105"
+      },
+      {
+        "name": "RUSHIL BHATT",
+        "id": "18043299"
+      }
+    ],
+    "players": [
+      {
+        "name": "Player2_INFORMED_AGENT",
+        "informed": "True",
+        "folder": "Group27Player1"
+      },
+      {
+        "name": "Player1_UNIFNORMED_AGENT",
+        "informed": "False",
+        "folder": "Group27Player2"
+      }
+    ]
+  },
+  {
+    "name": "Caffeine",
+    "members": [
+      {
+        "name": "Pan Chen Soon",
+        "id": "17071549"
+      },
+      {
+        "name": "Pan Chen Pong",
+        "id": "16087520"
+      },
+      {
+        "name": "Tan Sze Qin",
+        "id": "18037259"
+      }
+    ],
+    "players": [
+      {
+        "name": "Informed Search (GBFS)",
+        "informed": "True",
+        "folder": "Group22Player1"
+      },
+      {
+        "name": "Uninformed Search (BFS)",
+        "informed": "False",
+        "folder": "Group22Player2"
+      }
+    ]
+  },
+  {
+    "name": "Fancy",
+    "members": [
+      {
+        "name": "Tan Wyyee",
+        "id": "17013673"
+      },
+      {
+        "name": "Kok Ming Ho",
+        "id": "19024272"
+      },
+      {
+        "name": "Sin Jun",
+        "id": "18087619"
+      },
+      {
+        "name": "Leong Yen Loong",
+        "id": "18076083"
+      }
+    ],
+    "players": [
+      {
+        "name": "A* Search player",
+        "informed": "True",
+        "folder": "Group26Player1"
+      },
+      {
+        "name": "Breadth-First Search player",
+        "informed": "False",
+        "folder": "Group26Player2"
+      }
+    ]
+  },
+  {
+    "name": "Paiseh",
+    "members": [
+      {
+        "name": "Chan Wei Qi",
+        "id": "18102855"
+      },
+      {
+        "name": "Tham Yee Jin",
+        "id": "18003897"
+      },
+      {
+        "name": "Cheong Pui Yien",
+        "id": "18106914"
+      }
+    ],
+    "players": [
+      {
+        "name": "informed_GreedyBestFirstSearch",
+        "informed": "True",
+        "folder": "Group29Player1"
+      },
+      {
+        "name": "uninformed_BreadthFirstSearch",
+        "informed": "False",
+        "folder": "Group29Player2"
+      }
+    ]
+  },
+  {
+    "name": "walao",
+    "members": [
+      {
+        "name": "Ong Yu Mhing",
+        "id": "18098517"
+      },
+      {
+        "name": "Tristan Elisha Chong Ze Han",
+        "id": "18125799"
+      },
+      {
+        "name": "Chuah Kim Hooi",
+        "id": "18123588"
+      },
+      {
+        "name": "Tan Ju Bhin",
+        "id": "15025034"
+      }
+    ],
+    "players": [
+      {
+        "name": "Informed Search - player 1 A*",
+        "informed": "True",
+        "folder": "Group21Player1"
+      },
+      {
+        "name": "Uninformed Search - player 2 bfs",
+        "informed": "False",
+        "folder": "Group21Player2"
+      }
+    ]
+  },
+  {
+    "name": "Ais Teh",
+    "members": [
+      {
+        "name": "Hassan Azwaan",
+        "id": "18086157"
+      },
+      {
+        "name": "Lim Chze Yee",
+        "id": "16034357"
+      },
+      {
+        "name": "Khor Li Heng",
+        "id": "19014885"
+      }
+    ],
+    "players": [
+      {
+        "name": "BFS without search tree",
+        "informed": "False",
+        "folder": "Group12Player1"
+      },
+      {
+        "name": "BFS",
+        "informed": "False",
+        "folder": "Group12Player2"
+      },
+      {
+        "name": "GBFS",
+        "informed": "True",
+        "folder": "Group12Player3"
+      }
+    ]
+  },
+  {
+    "name": "AIPeople",
+    "members": [
+      {
+        "name": "Akmal Ikraam",
+        "id": "18010157"
+      },
+      {
+        "name": "Daniesha Jayasinghe",
+        "id": "16044760"
+      },
+      {
+        "name": "Tan Li Siang",
+        "id": "17103060"
+      },
+      {
+        "name": "Tan Pee Aun",
+        "id": "17037177"
+      }
+    ],
+    "players": [
+      {
+        "name": "Informed Agent",
+        "informed": "True",
+        "folder": "Group01Player1"
+      },
+      {
+        "name": "Uninformed Agent",
+        "informed": "False",
+        "folder": "Group01Player2"
+      }
+    ]
+  },
+  {
+    "name": "Old Driver",
+    "members": [
+      {
+        "name": "Teoh Zhan Tao",
+        "id": "15022999"
+      },
+      {
+        "name": "Ang Yu Hern",
+        "id": "17107202"
+      },
+      {
+        "name": "Chong Chein Yeap",
+        "id": "17119876"
+      },
+      {
+        "name": "Eng Janson",
+        "id": "17102047"
+      }
+    ],
+    "players": [
+      {
+        "name": "Informed Player",
+        "informed": "True",
+        "folder": "Group28Player1"
+      },
+      {
+        "name": "Uninformed Player",
+        "informed": "False",
+        "folder": "Group28Player2"
+      }
+    ]
+  },
+  {
+    "name": "Goodbye World",
+    "members": [
+      {
+        "name": "Lim Han Shen",
+        "id": "18124693"
+      },
+      {
+        "name": "Brandon Wong",
+        "id": "17097692"
+      },
+      {
+        "name": "Bryan Tan",
+        "id": "17083445"
+      },
+      {
+        "name": "Yeoh Qing Tuan",
+        "id": "18002220"
+      }
+    ],
+    "players": [
+      {
+        "name": "Player BFS",
+        "informed": "False",
+        "folder": "Group13Player1"
+      },
+      {
+        "name": "Player Greedy",
+        "informed": "True",
+        "folder": "Group13Player2"
+      }
+    ]
+  },
+  {
+    "name": "McFries",
+    "members": [
+      {
+        "name": "Liew Hsien Loong",
+        "id": "18030221"
+      },
+      {
+        "name": "Steven Soo Yon Zhang",
+        "id": "16039166"
+      },
+      {
+        "name": "Ng Wei Xiang",
+        "id": "18033167"
+      },
+      {
+        "name": "Teh Jiing Ren",
+        "id": "18027565"
+      }
+    ],
+    "players": [
+      {
+        "name": "Player 2 - A Star Search",
+        "informed": "True",
+        "folder": "Group19Player1"
+      },
+      {
+        "name": "Player 1 - Breadth First Search",
+        "informed": "False",
+        "folder": "Group19Player2"
+      }
+    ]
+  },
+  {
+    "name": "Thinkers",
+    "members": [
+      {
+        "name": "Brysen Poi Yong Zhen",
+        "id": "17119363"
+      },
+      {
+        "name": "Dylan Ng Jia Jun",
+        "id": "18031641"
+      },
+      {
+        "name": "Loh Khay Wen",
+        "id": "18017889"
+      }
+    ],
+    "players": [
+      {
+        "name": "Breadth-First Search",
+        "informed": "False",
+        "folder": "Group03Player1"
+      },
+      {
+        "name": "Greedy Best First Search",
+        "informed": "True",
+        "folder": "Group03Player2"
+      }
+    ]
+  },
+  {
+    "name": "1G3I",
+    "members": [
+      {
+        "name": "Peng Shao Wei",
+        "id": "19084227"
+      },
+      {
+        "name": "Koh Jia Yi",
+        "id": "17063470"
+      },
+      {
+        "name": "Ng J-Han",
+        "id": "18042507"
+      },
+      {
+        "name": "Gan Kai Wen",
+        "id": "16007940"
+      }
+    ],
+    "players": [
+      {
+        "name": "A* search",
+        "informed": "True",
+        "folder": "Group17Player1"
+      },
+      {
+        "name": "bfs",
+        "informed": "False",
+        "folder": "Group17Player2"
+      }
+    ]
+  },
+  {
+    "name": "Jimmy Neurons",
+    "members": [
+      {
+        "name": "Nicholas Lee Choon Sin",
+        "id": "18073957"
+      },
+      {
+        "name": "Cheong Keng Son",
+        "id": "18074229"
+      },
+      {
+        "name": "Adrian Ching Liansheng",
+        "id": "18063685"
+      },
+      {
+        "name": "Ng Wei Jinn",
+        "id": "18064154"
+      }
+    ],
+    "players": [
+      {
+        "name": "bfs",
+        "informed": "False",
+        "folder": "Group20Player1"
+      },
+      {
+        "name": "greedy",
+        "informed": "True",
+        "folder": "Group20Player2"
+      }
+    ]
+  },
+  {
+    "name": "NoviceAI",
+    "members": [
+      {
+        "name": "Lim Bing Xuan",
+        "id": "17075748"
+      },
+      {
+        "name": "Ow Yeong Mun Yin",
+        "id": "17076431"
+      },
+      {
+        "name": "Tan Wen Kang",
+        "id": "17060955"
+      },
+      {
+        "name": "Arun Alagusunthram a/l Venkatachalam",
+        "id": "17035668"
+      }
+    ],
+    "players": [
+      {
+        "name": "NoviceAI's Informed Search (Greedy best-first search)",
+        "informed": "True",
+        "folder": "Group11Player1"
+      },
+      {
+        "name": "NoviceAI's Uninformed Search (BFS)",
+        "informed": "False",
+        "folder": "Group11Player2"
+      }
+    ]
+  },
+  {
+    "name": "Groupee",
+    "members": [
+      {
+        "name": "Hay Su Sim",
+        "id": "18112342"
+      },
+      {
+        "name": "Gan Chu Heng",
+        "id": "18111773"
+      },
+      {
+        "name": "Moo Junn Liang",
+        "id": "18027623"
+      },
+      {
+        "name": "Loh Wil Ken",
+        "id": "19031301"
+      }
+    ],
+    "players": [
+      {
+        "name": "Informed Search Player",
+        "informed": "True",
+        "folder": "Group16Player1"
+      },
+      {
+        "name": "Uninformed Search Player",
+        "informed": "False",
+        "folder": "Group16Player2"
+      }
+    ]
+  },
+  {
+    "name": "Salla Kutta",
+    "members": [
+      {
+        "name": "Isaac Lim Nyit Wang",
+        "id": "17045378"
+      },
+      {
+        "name": "Keven Tai Yuan Tian",
+        "id": "17035023"
+      },
+      {
+        "name": "Shankarnivash Rao",
+        "id": "18007930"
+      }
+    ],
+    "players": [
+      {
+        "name": "Informed Search",
+        "informed": "True",
+        "folder": "Group08Player1"
+      },
+      {
+        "name": "Informed Search",
+        "informed": "False",
+        "folder": "Group08Player2"
+      }
+    ]
+  },
+  {
+    "name": "Kung Fu Pandas",
+    "members": [
+      {
+        "name": "Siow Woon Kang",
+        "id": "18042135"
+      },
+      {
+        "name": "Wong Yuen-Yi ",
+        "id": "17112723"
+      },
+      {
+        "name": "Wong Wei Chean ",
+        "id": "18000133"
+      },
+      {
+        "name": "Yash Aubeeluck ",
+        "id": "19059401"
+      }
+    ],
+    "players": [
+      {
+        "name": "Uninformed player",
+        "informed": "False",
+        "folder": "Group24Player1"
+      },
+      {
+        "name": "Informed player",
+        "informed": "True",
+        "folder": "Group24Player2"
+      }
+    ]
+  },
+  {
+    "name": "1M",
+    "members": [
+      {
+        "name": "Phyllis Chong Yee Teng",
+        "id": "18011551"
+      },
+      {
+        "name": "Khirrtini Muraleetharan",
+        "id": "18032052"
+      },
+      {
+        "name": "Khairul Akmal bin Khairulanwar",
+        "id": "18045872"
+      }
+    ],
+    "players": [
+      {
+        "name": "Informed Agent: A* Search",
+        "informed": "True",
+        "folder": "Group23Player1"
+      },
+      {
+        "name": "Uninformed Agent: Breadth First Search",
+        "informed": "False",
+        "folder": "Group23Player2"
+      }
+    ]
+  },
+  {
+    "name": "Pleb Bois",
+    "members": [
+      {
+        "name": "Chang Jin Hung",
+        "id": "18034033"
+      },
+      {
+        "name": "Yap Tzec Tom",
+        "id": "18031161"
+      },
+      {
+        "name": "Marcus Ho Kai Shuen",
+        "id": "18022293"
+      },
+      {
+        "name": "Ho Hui Sien",
+        "id": "15071459"
+      }
+    ],
+    "players": [
+      {
+        "name": "Challenge 1 Informed",
+        "informed": "True",
+        "folder": "Group04Player1"
+      },
+      {
+        "name": "Challenge 1 Uninformed",
+        "informed": "False",
+        "folder": "Group04Player2"
+      },
+      {
+        "name": "Challenge 2 Informed",
+        "informed": "True",
+        "folder": "Group04Player3"
+      },
+      {
+        "name": "Challenge 2 Uninformed",
+        "informed": "False",
+        "folder": "Group04Player4"
+      }
+    ]
+  },
+  {
+    "name": "Artificial Codeine",
+    "members": [
+      {
+        "name": "Michael Lu Han Xien",
+        "id": "18081588"
+      },
+      {
+        "name": "Anjali Radha Krishna",
+        "id": "16009847"
+      },
+      {
+        "name": "Garv Sudhir Nair",
+        "id": "19073535"
+      },
+      {
+        "name": "Yong Tze Min",
+        "id": "19079748"
+      }
+    ],
+    "players": [
+      {
+        "name": "A* Search",
+        "informed": "True",
+        "folder": "Group07Player1"
+      },
+      {
+        "name": "Uniform-Cost Seach",
+        "informed": "False",
+        "folder": "Group07Player2"
+      }
+    ]
+  },
+  {
+    "name": "Waiting for naptime",
+    "members": [
+      {
+        "name": "Kok Shi Qi",
+        "id": "19049808"
+      },
+      {
+        "name": "Tang Wen Yi",
+        "id": "17102617"
+      },
+      {
+        "name": "Lim Pei Ni",
+        "id": "19066273"
+      },
+      {
+        "name": "Lan Yee Faye",
+        "id": "18123729"
+      }
+    ],
+    "players": [
+      {
+        "name": "Breath-First Search",
+        "informed": "False",
+        "folder": "Group09Player1"
+      },
+      {
+        "name": "Greedy Best-First Search",
+        "informed": "True",
+        "folder": "Group09Player2"
+      }
+    ]
+  },
+  {
+    "name": "White-collar worker",
+    "members": [
+      {
+        "name": "Woo Wai Hong",
+        "id": "16026189"
+      },
+      {
+        "name": "Loh Mui Hin",
+        "id": "14085906"
+      },
+      {
+        "name": "Matthew Ng Yee Chun",
+        "id": "18031930"
+      },
+      {
+        "name": "Phang Chin Ter",
+        "id": "17035643"
+      }
+    ],
+    "players": [
+      {
+        "name": "BFS",
+        "informed": "False",
+        "folder": "Group15Player1"
+      },
+      {
+        "name": "Greedy",
+        "informed": "True",
+        "folder": "Group15Player2"
+      }
+    ]
+  }
+]

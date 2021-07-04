@@ -1,0 +1,46 @@
+[
+  {
+    "player": "Group08Player1",
+    "reason": "solve syntax error"
+  },
+  {
+    "player": "Group08Player2",
+    "reason": "solve syntax error"
+  },
+  {
+    "player": "Group14Player1",
+    "reason": "solve infinite loop"
+  },
+  {
+    "player": "Group19Player1",
+    "reason": "solve infinite loop"
+  },
+  {
+    "player": "Group19Player2",
+    "reason": "prevent log file size explosion"
+  },
+  {
+    "player": "Group25Player1",
+    "reason": "solve syntax error"
+  },
+  {
+    "player": "Group28Player1",
+    "reason": "remove whole program shutdown"
+  },
+  {
+    "player": "Group28Player2",
+    "reason": "remove whole program shutdown"
+  },
+  {
+    "player": "Group01Player1",
+    "reason": "fix informed/uninformed flag"
+  },
+  {
+    "player": "Group27Player1",
+    "reason": "fix informed/uninformed flag"
+  },
+  {
+    "player": "Group30Player1",
+    "reason": "fix informed/uninformed flag"
+  }
+]

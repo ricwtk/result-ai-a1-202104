@@ -1,0 +1,14 @@
+[1/4] Move snake in direction n
+[2/4] Move snake in direction n
+[3/4] Move snake in direction e
+[4/4] Move snake in direction e
+[1/6] Move snake in direction e
+[2/6] Move snake in direction e
+[3/6] Move snake in direction e
+[4/6] Move snake in direction e
+[5/6] Move snake in direction e
+[6/6] Move snake in direction e
+[1/2] Move snake in direction n
+[2/2] Move snake in direction w
+[1/6] Move snake in direction s
+stop biting yourself

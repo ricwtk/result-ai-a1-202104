@@ -1,0 +1,2 @@
+Explored: [[0, 5]]
+'Node' object has no attribute 'cost'

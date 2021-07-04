@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div id="app">
+    <v-app>
+      <v-app-bar app dark color="teal">
+        <v-tabs v-model="tab">
+          <v-tab>Group list</v-tab>
+          <v-tab>Marks Summary</v-tab>
+          <v-tab>Results summary</v-tab>
+          <v-tab>Reports</v-tab>
+          <!-- <v-tab>Player result</v-tab> -->
+        </v-tabs>
+      </v-app-bar>
+
+      <v-main>
+        <v-container fluid>
+          <v-tabs-items v-model="tab">
+            <v-tab-item>
+              <v-alert outlined type="info" border="left" elevation="2">
+                The type of player is denoted with <v-icon color="info">mdi-eye</v-icon> (informed) and <v-icon color="info">mdi-eye-off</v-icon> (uninformed).
+              </v-alert>
+              <v-data-iterator class="pa-2"
+                :items="groupswithmembersandplayers"
+                :items-per-page="-1"
+                :search="groupsearch"
+                sort-by="name"
+                :custom-filter="filtergroup">
+                <template v-slot:header>
+                  <v-toolbar class="mb-1" flat color="blue-grey" dark>
+                    <v-text-field
+                      v-model="groupsearch"
+                      clearable
+                      flat
+                      solo-inverted
+                      hide-details
+                      prepend-inner-icon="mdi-magnify"
+                      label="Search"
+                    ></v-text-field>
+                  </v-toolbar>
+                </template>
+                <template v-slot:default="{ items }">
+                  <v-row>
+                    <v-col v-for="item in items" :key="item.name" cols="12" sm="6" md="4" lg="3">
+                      <v-card>
+                        <v-card-title>{{ item.name }}</v-card-title>
+                        <v-divider></v-divider>
+                        <v-list dense>
+                          <v-list-item v-for="(member, idx) in item.members" :key="member.name + idx" two-line>
+                            <v-list-item-content>
+                              <v-list-item-title>{{ member.name }}</v-list-item-title>
+                              <v-list-item-subtitle>{{ member.id }}</v-list-item-subtitle>
+                            </v-list-item-content>
+                          </v-list-item>
+                          <v-divider></v-divider>
+                          <v-subheader>Players</v-subheader>
+                          <v-list-item v-for="(player, idx) in item.players" :key="player.folder + idx" two-line>
+                            <v-list-item-content>
+                              <v-list-item-title>{{ player.folder }}</v-list-item-title>
+                              <v-list-item-subtitle>{{ player.name }}</v-list-item-subtitle>
+                            </v-list-item-content>
+                            <v-list-item-action><v-icon :title="player.informed == 'True' ? 'informed' : 'uninformed'">{{ player.informed == "True" ? "mdi-eye" : "mdi-eye-off" }}</v-icon></v-list-item-action>
+                          </v-list-item>
+                        </v-list>
+                      </v-card>
+                    </v-col>
+                  </v-row>
+                </template>
+              </v-data-iterator>
+            </v-tab-item>
+
+            <v-tab-item>
+              <v-alert outlined type="info" border="left" elevation="2">
+                <ul>
+                  <li><b>Functional Codes</b> is calculated with $$10 - \frac{\text{Total number of errors}}{\text{Total number of trials}} \times 10$$</li>
+                  <li><b>Scored Points</b> is calculated with $$\sum_{\forall\text{mode}} \frac{\text{Max points in the mode}}{\text{Highest points of all players in the mode}} \div 3 \text{ modes} \times 5$$</li>
+                  <li><b>Scaled</b> is calculated with $$\frac{\text{Total}}{100} \times 15 \text{(contribution of this assignment to final grade)}$$</li>
+                </ul>
+              </v-alert>
+              <v-data-iterator class="pa-2"
+                :items="marksummary"
+                :items-per-page="-1"
+                :search="marksearch"
+                sort-by="group number"
+                :custom-filter="filtermarks">
+                <template v-slot:header>
+                  <v-toolbar class="mb-1" flat color="blue-grey" dark>
+                    <v-text-field
+                      v-model="marksearch"
+                      clearable
+                      flat
+                      solo-inverted
+                      hide-details
+                      prepend-inner-icon="mdi-magnify"
+                      label="Search"
+                    ></v-text-field>
+                  </v-toolbar>
+                </template>
+                <template v-slot:default="{ items }">
+                  <v-row>
+                    <v-col v-for="item in items" :key="item.group" cols="12" sm="6" md="4" lg="3">
+                      <v-card>
+                        <v-card-title>Group {{ item['group number'] }}</v-card-title>
+                        <v-card-subtitle>{{ item.group }}</v-card-subtitle>
+                        <v-divider></v-divider>
+                        <v-list dense v-for="section in ['Uninformed Player', 'Informed Player', 'Report']" :key="(item ? item.group : '') + section">
+                          <v-list-group :value="false" no-action>
+                            <template v-slot:activator>
+                              <v-list-item>
+                                <v-list-item-content>
+                                  <v-list-item-title>{{ section }}</v-list-item-title>
+                                </v-list-item-content>
+                              </v-list-item>
+                            </template>
+                            <v-list-item v-for="part in Object.keys(marksdistribution[section])" :key="item.group + section + part">
+                              <v-list-item-content>
+                                  <v-list-item-title>{{ part.replace("UP", "").replace("IP", "").trim() }}</v-list-item-title>
+                              </v-list-item-content>
+                              <v-list-item-action>
+                                <v-list-item-action-text>{{ item[part] }} of {{ marksdistribution[section][part] }}</v-list-item-action-text>
+                              </v-list-item-action>
+                            </v-list-item>
+                          </v-list-group>
+                        </v-list>
+                        <template v-for="section in ['Total', 'Scaled']">
+                          <v-divider v-if="section == 'Scaled'"></v-divider>
+                          <v-list dense>
+                            <v-list-item>
+                              <v-list-item-content>
+                                <v-list-item-title>{{ section }}</v-list-item-title>
+                              </v-list-item-content>
+                              <v-list-item-action>
+                                <v-list-item-action-text>
+                                  <hideable-text>
+                                    <strong>{{ item[section] }}</strong> of {{ marksdistribution[section] }}
+                                  </hideable-text>
+                                </v-list-item-action-text>
+                              </v-list-item-action>
+                            </v-list-item>
+                          </v-list>
+                        </template>
+                      </v-card>
+                    </v-col>
+                  </v-row>
+                </template>
+              </v-data-iterator>
+            </v-tab-item>
+
+            <v-tab-item>
+              <v-alert outlined type="info" border="left" elevation="2">
+                <ul>
+                  <li>The results are obtained with a maze of 10 $\times$ 10.</li>
+                  <li>3 modes are used for each player.
+                    <ul>
+                      <li><b>base</b>: static snake length, snake length of 1, 1 simultaneous food</li>
+                      <li><b>dynamic</b>: dynamic snake length, starting snake length of 1, 1 simultaneous food</li>
+                      <li><b>multidynamic</b>: dynamic snake length, starting snake length of 1, 2 simultaneous food</li>
+                    </ul>
+                  </li>
+                  <li>Each player has 5 trials on each mode. The game will be terminated with one of the following conditions.
+                    <ul>
+                      <li><b>points 50</b>: the player achieves 50 points</li>
+                      <li><b>gameover</b>: the player hits the wall or eats its body</li>
+                      <li><b>number of loops 1000</b>: the <tt>Player.run</tt> function is called for 1000 times</li>
+                      <li>other errors caused by the player's code (only terminations due to this condition will be labelled with Error = <v-icon color="info">mdi-check</v-icon> )</li>
+                    </ul>
+                  </li>
+                </ul>
+              </v-alert>
+              <v-data-iterator class="pa-2"
+                :items="resultsummary"
+                :items-per-page="-1"
+                :search="resultsearch"
+                sort-by="group"
+                :custom-filter="filterresult">
+                <template v-slot:header>
+                  <v-toolbar class="mb-1" flat color="blue-grey" dark>
+                    <v-text-field
+                      v-model="resultsearch"
+                      clearable
+                      flat
+                      solo-inverted
+                      hide-details
+                      prepend-inner-icon="mdi-magnify"
+                      label="Search"
+                    ></v-text-field>
+                  </v-toolbar>
+                </template>
+                <template v-slot:default="{ items }">
+                  <v-row>
+                    <v-col v-for="item in items" :key="item.name" cols="12" lg="6">
+                      <v-card>
+                        <v-card-title>Group {{ item.group }}</v-card-title>
+                        <v-card-subtitle>{{ item.name }}</v-card-subtitle>
+                        <v-divider></v-divider>
+                        <v-list dense v-for="section in Object.keys(item).filter(it => !['name','group'].includes(it))" :key="(item ? item.name : '') + section">
+                          <v-list-group :value="false" no-action>
+                            <template v-slot:activator>
+                              <v-list-item>
+                                <v-list-item-content>
+                                  <v-list-item-title>{{ section }}</v-list-item-title>
+                                </v-list-item-content>
+                              </v-list-item>
+                            </template>
+                            <v-list-group no-action sub-group :value="false" v-for="mode in Object.keys(item[section])" :key="item.name + section + mode">
+                              <template v-slot:activator>
+                                <v-list-item>
+                                  <v-list-item-content>
+                                    <v-list-item-title>{{ mode }}</v-list-item-title>
+                                  </v-list-item-content>
+                                </v-list-item>
+                              </template>
+                              <v-card color="blue-grey lighten-4">
+                                <v-card-text>
+                                  <v-simple-table>
+                                    <template v-slot:default>
+                                      <thead>
+                                        <tr>
+                                          <th class="text-center" v-for="colhead in ['Trials', 'Points', 'Gameover', 'Error', 'Termination reason']" :key="mode + colhead">{{ colhead }}</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr v-for="(trial, t) in item[section][mode].trials" :key="mode + t">
+                                          <td class="text-center">{{ t }}</td>
+                                          <td class="text-center">{{ trial.points }}</td>
+                                          <td class="text-center"><v-icon>{{ trial.gameover == '0' ? 'mdi-close' : 'mdi-check' }}</v-icon></td>
+                                          <td class="text-center"><v-icon>{{ trial.error == '0' ? 'mdi-close' : 'mdi-check' }}</v-icon></td>
+                                          <td class="text-center">{{ trial['termination reason'] }}</td>
+                                        </tr>
+                                      </tbody>
+                                    </template>
+                                  </v-simple-table>
+                                  <v-simple-table class="mt-2">
+                                    <template v-slot:default>
+                                      <thead>
+                                        <tr>
+                                          <th class="text-center">Number of errors</th>
+                                          <th class="text-center">Max points achieved</th>
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                          <td class="text-center">{{ item[section][mode].erroneous }}</td>
+                                          <td class="text-center">{{ item[section][mode].max }}</td>
+                                        </tr>
+                                      </tbody>
+                                    </template>
+                                  </v-simple-table>
+                                </v-card-text>
+                              </v-card>
+                            </v-list-group>
+                          </v-list-group>
+                        </v-list>
+                      </v-card>
+                    </v-col>
+                  </v-row>
+                </template>
+              </v-data-iterator>
+            </v-tab-item>
+
+            <v-tab-item>
+              <v-row>
+                <v-select>
+                  
+                </v-select>
+              </v-row>
+              <v-row class="ma-0">
+                <object style="flex-grow: 1" :data="urlPdf" type="application/pdf">teat</object>
+              </v-row>
+            </v-tab-item>
+
+          </v-tabs-items>
+        </v-container>
+      </v-main>
+    </v-app>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

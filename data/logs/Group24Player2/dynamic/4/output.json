@@ -1,0 +1,118 @@
+[
+{
+  "problem": {
+    "snake_locations": [
+      [
+        0,
+        5
+      ]
+    ],
+    "current_direction": "e",
+    "food_locations": [
+      [
+        4,
+        6
+      ]
+    ]
+  },
+  "solution": [
+    "e",
+    "e",
+    "e",
+    "e",
+    "s"
+  ],
+  "result": {
+    "gameover": false,
+    "points": 1,
+    "moved": [
+      "e",
+      "e",
+      "e",
+      "e",
+      "s"
+    ]
+  }
+},
+{
+  "problem": {
+    "snake_locations": [
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "current_direction": "s",
+    "food_locations": [
+      [
+        2,
+        7
+      ]
+    ]
+  },
+  "solution": [
+    "w",
+    "w",
+    "s"
+  ],
+  "result": {
+    "gameover": false,
+    "points": 2,
+    "moved": [
+      "w",
+      "w",
+      "s"
+    ]
+  }
+},
+{
+  "problem": {
+    "snake_locations": [
+      [
+        2,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "current_direction": "s",
+    "food_locations": [
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "solution": [
+    "n",
+    "n",
+    "n",
+    "n",
+    "n",
+    "w",
+    "n",
+    "w",
+    "n"
+  ],
+  "result": {
+    "gameover": true,
+    "points": 2,
+    "moved": [
+      "n"
+    ]
+  }
+},
+{
+  "exit": "gameover"
+}
+]

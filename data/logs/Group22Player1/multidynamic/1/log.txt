@@ -1,0 +1,91 @@
+expansion sequence: 1
+parent: [0, 5]
+children: [[0, 4], [0, 6], [1, 5]]
+frontier: [[0, 4], [0, 6], [1, 5]]
+cost: [2, 4, 4]
+direction: ['n', 's', 'e']
+
+expansion sequence: 2
+parent: [0, 4]
+children: [[0, 3], [0, 5], [1, 4]]
+frontier: [[0, 3], [1, 4], [0, 6], [1, 5]]
+cost: [1, 3, 4, 4]
+direction: ['n', 'e', 's', 'e']
+
+expansion sequence: 3
+parent: [0, 3]
+children: [[0, 2], [0, 4], [1, 3]]
+frontier: [[0, 2], [1, 3], [1, 4], [0, 6], [1, 5]]
+cost: [0, 2, 3, 4, 4]
+direction: ['n', 'e', 'e', 's', 'e']
+
+['n', 'n', 'n']
+[1/3] Move snake in direction n
+[2/3] Move snake in direction n
+[3/3] Move snake in direction n
+expansion sequence: 1
+parent: [0, 2]
+children: [[0, 1], [0, 3], [1, 2]]
+frontier: [[0, 3], [1, 2], [0, 1]]
+cost: [8, 8, 10]
+direction: ['s', 'e', 'n']
+
+expansion sequence: 2
+parent: [0, 3]
+children: [[0, 2], [0, 4], [1, 3]]
+frontier: [[0, 4], [1, 3], [1, 2], [0, 1]]
+cost: [7, 7, 8, 10]
+direction: ['s', 'e', 'e', 'n']
+
+expansion sequence: 3
+parent: [0, 4]
+children: [[0, 3], [0, 5], [1, 4]]
+frontier: [[0, 5], [1, 4], [1, 3], [1, 2], [0, 1]]
+cost: [6, 6, 7, 8, 10]
+direction: ['s', 'e', 'e', 'e', 'n']
+
+expansion sequence: 4
+parent: [0, 5]
+children: [[0, 4], [0, 6], [1, 5]]
+frontier: [[0, 6], [1, 5], [1, 4], [1, 3], [1, 2], [0, 1]]
+cost: [5, 5, 6, 7, 8, 10]
+direction: ['s', 'e', 'e', 'e', 'e', 'n']
+
+expansion sequence: 5
+parent: [0, 6]
+children: [[0, 5], [0, 7], [1, 6]]
+frontier: [[0, 7], [1, 6], [1, 5], [1, 4], [1, 3], [1, 2], [0, 1]]
+cost: [4, 4, 5, 6, 7, 8, 10]
+direction: ['s', 'e', 'e', 'e', 'e', 'e', 'n']
+
+expansion sequence: 6
+parent: [0, 7]
+children: [[0, 6], [0, 8], [1, 7]]
+frontier: [[1, 7], [1, 6], [1, 5], [0, 8], [1, 4], [1, 3], [1, 2], [0, 1]]
+cost: [3, 4, 5, 5, 6, 7, 8, 10]
+direction: ['e', 'e', 'e', 's', 'e', 'e', 'e', 'n']
+
+expansion sequence: 7
+parent: [1, 7]
+children: [[1, 6], [1, 8], [0, 7], [2, 7]]
+frontier: [[2, 7], [1, 6], [1, 8], [1, 5], [0, 8], [1, 4], [1, 3], [1, 2], [0, 1]]
+cost: [2, 4, 4, 5, 5, 6, 7, 8, 10]
+direction: ['e', 'e', 's', 'e', 's', 'e', 'e', 'e', 'n']
+
+expansion sequence: 8
+parent: [2, 7]
+children: [[2, 6], [2, 8], [1, 7], [3, 7]]
+frontier: [[3, 7], [2, 6], [2, 8], [1, 6], [1, 8], [1, 5], [0, 8], [1, 4], [1, 3], [1, 2], [0, 1]]
+cost: [1, 3, 3, 4, 4, 5, 5, 6, 7, 8, 10]
+direction: ['e', 'n', 's', 'e', 's', 'e', 's', 'e', 'e', 'e', 'n']
+
+expansion sequence: 9
+parent: [3, 7]
+children: [[3, 6], [3, 8], [2, 7], [4, 7]]
+frontier: [[4, 7], [3, 6], [3, 8], [2, 6], [2, 8], [1, 6], [1, 8], [1, 5], [0, 8], [1, 4], [1, 3], [1, 2], [0, 1]]
+cost: [0, 2, 2, 3, 3, 4, 4, 5, 5, 6, 7, 8, 10]
+direction: ['e', 'n', 's', 'n', 's', 'e', 's', 'e', 's', 'e', 'e', 'e', 'n']
+
+['s', 's', 's', 's', 's', 'e', 'e', 'e', 'e']
+[1/9] Move snake in direction s
+stop biting yourself

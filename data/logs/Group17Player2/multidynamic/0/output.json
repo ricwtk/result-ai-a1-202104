@@ -1,0 +1,57 @@
+[
+{
+  "problem": {
+    "snake_locations": [
+      [
+        0,
+        5
+      ]
+    ],
+    "current_direction": "e",
+    "food_locations": [
+      [
+        8,
+        5
+      ],
+      [
+        4,
+        7
+      ]
+    ]
+  },
+  "solution": [
+    "e",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e",
+    "e",
+    "w",
+    "w",
+    "w",
+    "w",
+    "s",
+    "s"
+  ],
+  "result": {
+    "gameover": true,
+    "points": 1,
+    "moved": [
+      "e",
+      "e",
+      "e",
+      "e",
+      "e",
+      "e",
+      "e",
+      "e",
+      "w"
+    ]
+  }
+},
+{
+  "exit": "gameover"
+}
+]

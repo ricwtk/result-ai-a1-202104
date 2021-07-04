@@ -1,0 +1,11 @@
+[1/9] Move snake in direction n
+[2/9] Move snake in direction n
+[3/9] Move snake in direction n
+[4/9] Move snake in direction n
+[5/9] Move snake in direction e
+[6/9] Move snake in direction e
+[7/9] Move snake in direction e
+[8/9] Move snake in direction e
+[9/9] Move snake in direction e
+[1/4] Move snake in direction w
+stop biting yourself

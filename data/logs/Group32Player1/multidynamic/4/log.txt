@@ -1,0 +1,6 @@
+[1/4] Move snake in direction n
+[2/4] Move snake in direction n
+[3/4] Move snake in direction n
+[4/4] Move snake in direction n
+[1/8] Move snake in direction s
+stop biting yourself

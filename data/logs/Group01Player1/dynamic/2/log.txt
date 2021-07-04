@@ -1,0 +1,299 @@
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction e
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+E NSTEP  True
+NEW SOL  ['e']
+W NSTEP  True
+NEW SOL  ['e', 'w']
+N NSTEP  True
+NEW SOL  ['e', 'w', 'n']
+SOLUTIONS ==>  ['e', 'w', 'n']
+SELECTED SOL ==>  e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+E NSTEP  True
+NEW SOL  ['e']
+SOLUTIONS ==>  ['e']
+SELECTED SOL ==>  e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction n
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+E NSTEP  True
+NEW SOL  ['e']
+N NSTEP  True
+NEW SOL  ['e', 'n']
+SOLUTIONS ==>  ['e', 'n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+E NSTEP  True
+NEW SOL  ['e']
+W NSTEP  True
+NEW SOL  ['e', 'w']
+N NSTEP  True
+NEW SOL  ['e', 'w', 'n']
+SOLUTIONS ==>  ['e', 'w', 'n']
+SELECTED SOL ==>  e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction e
+E NSTEP  True
+NEW SOL  ['e']
+N NSTEP  True
+NEW SOL  ['e', 'n']
+S NSTEP  True
+NEW SOL  ['e', 'n', 's']
+SOLUTIONS ==>  ['e', 'n', 's']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+E NSTEP  True
+NEW SOL  ['e']
+N NSTEP  True
+NEW SOL  ['e', 'n']
+SOLUTIONS ==>  ['e', 'n']
+SELECTED SOL ==>  e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction s
+E NSTEP  True
+NEW SOL  ['e']
+S NSTEP  True
+NEW SOL  ['e', 's']
+SOLUTIONS ==>  ['e', 's']
+SELECTED SOL ==>  s
+[1/1] Move snake in direction s
+E NSTEP  True
+NEW SOL  ['e']
+W NSTEP  True
+NEW SOL  ['e', 'w']
+S NSTEP  True
+NEW SOL  ['e', 'w', 's']
+SOLUTIONS ==>  ['e', 'w', 's']
+SELECTED SOL ==>  e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction n
+N NSTEP  True
+NEW SOL  ['n']
+SOLUTIONS ==>  ['n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+N NSTEP  True
+NEW SOL  ['n']
+SOLUTIONS ==>  ['n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+W NSTEP  True
+NEW SOL  ['w']
+N NSTEP  True
+NEW SOL  ['w', 'n']
+SOLUTIONS ==>  ['w', 'n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+W NSTEP  True
+NEW SOL  ['w']
+N NSTEP  True
+NEW SOL  ['w', 'n']
+SOLUTIONS ==>  ['w', 'n']
+SELECTED SOL ==>  w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction s
+W NSTEP  True
+NEW SOL  ['w']
+SOLUTIONS ==>  ['w']
+SELECTED SOL ==>  w
+[1/1] Move snake in direction w
+W NSTEP  True
+NEW SOL  ['w']
+N NSTEP  True
+NEW SOL  ['w', 'n']
+SOLUTIONS ==>  ['w', 'n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+W NSTEP  True
+NEW SOL  ['w']
+N NSTEP  True
+NEW SOL  ['w', 'n']
+SOLUTIONS ==>  ['w', 'n']
+SELECTED SOL ==>  w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction s
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction n
+[1/1] Move snake in direction w
+[1/1] Move snake in direction w
+W NSTEP  True
+NEW SOL  ['w']
+N NSTEP  True
+NEW SOL  ['w', 'n']
+SOLUTIONS ==>  ['w', 'n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+E NSTEP  True
+NEW SOL  ['e']
+W NSTEP  True
+NEW SOL  ['e', 'w']
+N NSTEP  True
+NEW SOL  ['e', 'w', 'n']
+SOLUTIONS ==>  ['e', 'w', 'n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+E NSTEP  True
+NEW SOL  ['e']
+W NSTEP  True
+NEW SOL  ['e', 'w']
+N NSTEP  True
+NEW SOL  ['e', 'w', 'n']
+SOLUTIONS ==>  ['e', 'w', 'n']
+SELECTED SOL ==>  e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction s
+E NSTEP  True
+NEW SOL  ['e']
+SOLUTIONS ==>  ['e']
+SELECTED SOL ==>  e
+[1/1] Move snake in direction e
+N NSTEP  True
+NEW SOL  ['n']
+SOLUTIONS ==>  ['n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+N NSTEP  True
+NEW SOL  ['n']
+SOLUTIONS ==>  ['n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+W NSTEP  True
+NEW SOL  ['w']
+N NSTEP  True
+NEW SOL  ['w', 'n']
+SOLUTIONS ==>  ['w', 'n']
+SELECTED SOL ==>  n
+[1/1] Move snake in direction n
+W NSTEP  True
+NEW SOL  ['w']
+N NSTEP  True
+NEW SOL  ['w', 'n']
+SOLUTIONS ==>  ['w', 'n']
+SELECTED SOL ==>  w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction s
+W NSTEP  True
+NEW SOL  ['w']
+SOLUTIONS ==>  ['w']
+SELECTED SOL ==>  w
+[1/1] Move snake in direction w
+W NSTEP  True
+NEW SOL  ['w']
+N NSTEP  True
+NEW SOL  ['w', 'n']
+SOLUTIONS ==>  ['w', 'n']
+SELECTED SOL ==>  w
+[1/1] Move snake in direction w
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction s
+[1/1] Move snake in direction e
+[1/1] Move snake in direction e
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+[1/1] Move snake in direction n
+E NSTEP  True
+NEW SOL  ['e']
+W NSTEP  True
+NEW SOL  ['e', 'w']
+SOLUTIONS ==>  ['e', 'w']
+SELECTED SOL ==>  w
+[1/1] Move snake in direction w
+S NSTEP  True
+NEW SOL  ['s']
+SOLUTIONS ==>  ['s']
+SELECTED SOL ==>  s
+[1/1] Move snake in direction s
+S NSTEP  True
+NEW SOL  ['s']
+SOLUTIONS ==>  ['s']
+SELECTED SOL ==>  s
+[1/1] Move snake in direction s
+S NSTEP  True
+NEW SOL  ['s']
+SOLUTIONS ==>  ['s']
+SELECTED SOL ==>  s
+[1/1] Move snake in direction s
+empty range for randrange() (0,0, 0)

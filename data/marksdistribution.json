@@ -1,0 +1,18 @@
+{
+  "Uninformed Player": {
+    "UP Functional Codes": 10,
+    "UP Scored Points": 5
+  },
+  "Informed Player": {
+    "IP Functional Codes": 10,
+    "IP Scored Points": 5
+  },
+  "Report": {
+    "Correctness": 20,
+    "Continuity": 15,
+    "Representation": 15,
+    "Discussion/Analysis": 20
+  },
+  "Total": 100,
+  "Scaled": 15
+}
