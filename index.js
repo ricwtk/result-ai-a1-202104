@@ -10,7 +10,7 @@ let vm = new Vue({
     }
   },
   data: {
-    tab: 3,
+    tab: 0,
     groupsearch: "",
     marksearch: "",
     resultsearch: "",
@@ -19,7 +19,19 @@ let vm = new Vue({
     marksummary: [],
     marksdistribution: {},
     resultsummary: [],
-    urlPdf: null
+    reportlist: [],
+    urlPdf: null,
+    reporttoshow: ""
+  },
+  computed: {
+    loaded: function () {
+      return this.groupswithmembersandplayers.length > 0
+      && this.lecturereditedplayers.length > 0
+      && this.marksummary.length > 0
+      && Object.keys(this.marksdistribution).length > 0
+      && this.resultsummary.length > 0
+      && this.reportlist.length > 0;
+    }
   },
   watch: {
     tab: function() { this.$nextTick().then(() => MathJax.typeset()).then(() => MathJax.typeset()); }
@@ -50,10 +62,10 @@ let vm = new Vue({
     .then(resp => resp.json())
     .then(jsonresp => { this.resultsummary = jsonresp; });
 
-    req = new Request("reports");
+    req = new Request("data/reportlist.json");
     fetch(req)
-    .then(resp => resp.text())
-    .then(console.log);
+    .then(resp => resp.json())
+    .then(jsonresp => { this.reportlist = jsonresp; });
   },
   methods: {
     filtergroup: function (items, search) {

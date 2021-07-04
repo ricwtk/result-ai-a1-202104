@@ -15,9 +15,13 @@
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <style>
+    [v-cloak] { display: none; }
+  </style>
 </head>
 <body>
-  <div id="app">
+  <div id="app" v-cloak>
+    <v-overlay z-index="100" :value="!loaded"></v-overlay>
     <v-app>
       <v-app-bar app dark color="teal">
         <v-tabs v-model="tab">
@@ -30,8 +34,8 @@
       </v-app-bar>
 
       <v-main>
-        <v-container fluid>
-          <v-tabs-items v-model="tab">
+        <v-container fluid class="fill-height flex-column">
+          <v-tabs-items v-model="tab" class="fill-height" style="width:100%">
             <v-tab-item>
               <v-alert outlined type="info" border="left" elevation="2">
                 The type of player is denoted with <v-icon color="info">mdi-eye</v-icon> (informed) and <v-icon color="info">mdi-eye-off</v-icon> (uninformed).
@@ -274,14 +278,19 @@
               </v-data-iterator>
             </v-tab-item>
 
-            <v-tab-item>
-              <v-row>
-                <v-select>
-                  
-                </v-select>
+            <v-tab-item class="fill-height d-flex flex-column">
+              <v-alert outlined type="info" border="left" elevation="2">
+                Select the group to display the marked report.
+              </v-alert>
+              <v-row class="pa-1 flex-grow-0">
+                <v-col class="d-flex" cols="12">
+                  <v-select outlined hide-details @change="loadpdf(reporttoshow)" v-model="reporttoshow" label="Group" :items="reportlist.map(it => it.replace('.pdf',''))"></v-select>
+                </v-col>
               </v-row>
-              <v-row class="ma-0">
-                <object style="flex-grow: 1" :data="urlPdf" type="application/pdf">teat</object>
+              <v-row class="flex-grow-1">
+                <v-col class="d-flex" cols="12">
+                  <object style="flex-grow: 1" :data="urlPdf" type="application/pdf"></object>
+                </v-col>
               </v-row>
             </v-tab-item>
 
