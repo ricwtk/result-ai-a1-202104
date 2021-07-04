@@ -278,7 +278,7 @@
               </v-data-iterator>
             </v-tab-item>
 
-            <v-tab-item class="fill-height d-flex flex-column">
+            <v-tab-item class="fill-height flex-column" :class="tab == 3 ? 'd-flex' : ''">
               <v-alert outlined type="info" border="left" elevation="2">
                 Select the group to display the marked report.
               </v-alert>
