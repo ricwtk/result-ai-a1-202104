@@ -94,6 +94,7 @@
                 <ul>
                   <li><b>Functional Codes</b> is calculated with $$10 - \frac{\text{Total number of errors}}{\text{Total number of trials}} \times 10$$</li>
                   <li><b>Scored Points</b> is calculated with $$\sum_{\forall\text{mode}} \frac{\text{Max points in the mode}}{\text{Highest points of all players in the mode}} \div 3 \text{ modes} \times 5$$</li>
+                  <li><b>Penalties</b> is given when your code required me to fix syntax error in order to be imported.</li>
                   <li><b>Scaled</b> is calculated with $$\frac{\text{Total}}{100} \times 15 \text{(contribution of this assignment to final grade)}$$</li>
                 </ul>
               </v-alert>
@@ -142,7 +143,7 @@
                             </v-list-item>
                           </v-list-group>
                         </v-list>
-                        <template v-for="section in ['Total', 'Scaled']">
+                        <template v-for="section in ['Penalties', 'Total', 'Scaled']">
                           <v-divider v-if="section == 'Scaled'"></v-divider>
                           <v-list dense>
                             <v-list-item>
@@ -151,7 +152,10 @@
                               </v-list-item-content>
                               <v-list-item-action>
                                 <v-list-item-action-text>
-                                  <hideable-text>
+                                  <hideable-text v-if="section == 'Penalties'">
+                                    <strong>{{ item[section] }}</strong>
+                                  </hideable-text>
+                                  <hideable-text v-else>
                                     <strong>{{ item[section] }}</strong> of {{ marksdistribution[section] }}
                                   </hideable-text>
                                 </v-list-item-action-text>
