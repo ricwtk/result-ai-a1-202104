@@ -10,7 +10,7 @@ let vm = new Vue({
     }
   },
   data: {
-    tab: 0,
+    tab: 4,
     groupsearch: "",
     marksearch: "",
     resultsearch: "",
@@ -21,7 +21,33 @@ let vm = new Vue({
     resultsummary: [],
     reportlist: [],
     urlPdf: null,
-    reporttoshow: ""
+    showresultselects: true,
+    reporttoshow: "",
+    modelist: ['base', 'dynamic', 'multidynamic'],
+    resultselection: {
+      player: "",
+      mode: "",
+      trial: 0
+    },
+    resultselectionerror: "",
+    resulttoshow: {
+      player: "",
+      mode: "",
+      trial: null
+    },
+    showingresult: {
+      all: [],
+      showingstep: 0
+    },
+    mazeSettings: {
+      size: [10,10],
+      unit: 25,
+      gap: 1,
+      snakedotr: 10,
+      snakedotdirscale: 0.5,
+    },
+    allDirs: ["n", "s", "w", "e"],
+    dirOperations: [ [0, -1], [0, +1], [-1, 0], [+1, 0] ],
   },
   computed: {
     loaded: function () {
@@ -31,10 +57,14 @@ let vm = new Vue({
       && Object.keys(this.marksdistribution).length > 0
       && this.resultsummary.length > 0
       && this.reportlist.length > 0;
+    },
+    playerlist: function () {
+      return this.resultsummary.reduce((acc,pl) => acc.concat(Object.keys(pl).filter(k => !['group','name'].includes(k))), []);
     }
   },
   watch: {
-    tab: function() { this.$nextTick().then(() => MathJax.typeset()).then(() => MathJax.typeset()); }
+    tab: function() { this.$nextTick().then(() => MathJax.typeset()).then(() => MathJax.typeset()); },
+    "showingresult.showingstep": function (newval, oldval) { if (newval == undefined) { this.$set(this.showingresult, 'showingstep', oldval); } }
   },
   mounted: function () {
     let req = new Request("data/groupswithmembersandplayers.json");
@@ -113,6 +143,62 @@ let vm = new Vue({
       .then(res => {
         this.urlPdf = URL.createObjectURL(res);
       });
+    },
+    loadresult: function () {
+      this.resultselectionerror = "";
+      if (this.resultselection.player == "" || this.resultselection.mode == "") {
+        this.resultselectionerror = "Player and/or Mode are/is not selected.";
+      } else {
+        this.resulttoshow = Object.assign({}, this.resultselection);
+        this.importresult();
+      }
+    },
+    importresult: function () {
+      let req = new Request(`data/logs/${this.resultselection.player}/${this.resultselection.mode}/${this.resultselection.trial}/output.json`);
+      fetch(req)
+      .then(resp => resp.json())
+      .then(resp => { this.showingresult.all = resp; this.showingresult.showingstep = 0; });
+    },
+    getMazeViewBox: function (row, col) {
+      return [
+        0, 0,
+        col * this.mazeSettings.unit + Math.max(col + 1, 0) * this.mazeSettings.gap,
+        row * this.mazeSettings.unit + Math.max(row + 1, 0) * this.mazeSettings.gap
+      ];
+    },
+    getMazePadLoc: function (row, col) {
+      let locs = [];
+      [...Array(col).keys()].forEach((cval,cidx,carr) => {
+        [...Array(row).keys()].forEach((rval,ridx,rarr) => {
+          locs.push([cval * this.mazeSettings.unit + Math.max(cval + 1, 0) * this.mazeSettings.gap, rval * this.mazeSettings.unit + Math.max(rval + 1, 0) * this.mazeSettings.gap]);
+        });
+      });
+      return locs;
+    },
+    getCoord: function (idx) {
+      return this.mazeSettings.unit/2 + idx * this.mazeSettings.unit + Math.max(idx+1,0) * this.mazeSettings.gap;
+    },
+    getSnakeColor: function (fullLength, index) {
+      return Math.ceil((fullLength-index)/fullLength *10)*10;
+    },
+    getSnakeDotDirs: function (locations, firstDir) {
+      return locations.map((val,idx,arr) => {
+        if (idx == 0) {
+          return firstDir;
+        } else {
+          let delta = JSON.stringify([arr[idx-1][0] - val[0], arr[idx-1][1] - val[1]]);
+          return this.allDirs[ this.dirOperations.map(x => JSON.stringify(x)).indexOf(delta) ];
+        }
+      });
+    },
+    getNewLocByDir: function (oldLoc, dir) {
+      let operation = this.dirOperations[this.allDirs.indexOf(dir)];
+      return [oldLoc[0] + operation[0], oldLoc[1] + operation[1]];
+    },
+    getSolutionLine: function (snakehead, solution) {
+      let solutionline = ((typeof solution.reduce == "undefined") ? [solution] : solution).reduce((acc,val) => acc.concat([this.getNewLocByDir(acc[acc.length-1], val)]), [snakehead]);
+      solutionline = solutionline.map(point => point.map(pt => this.getCoord(pt)));
+      return solutionline;
     }
   }
 });

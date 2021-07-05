@@ -17,6 +17,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <style>
     [v-cloak] { display: none; }
+    .maze-pad { fill-opacity: 10%; }
+    .snake-food { fill: #10B981; }
+    .snake-10 { fill: #FDF2F8; }
+    .snake-20 { fill: #FCE7F3; }
+    .snake-30 { fill: #FBCFE8; }
+    .snake-40 { fill: #F9A8D4; }
+    .snake-50 { fill: #F472B6; }
+    .snake-60 { fill: #EC4899; }
+    .snake-70 { fill: #DB2777; }
+    .snake-80 { fill: #BE185D; }
+    .snake-90 { fill: #9D174D; }
+    .snake-100 { fill: #831843; }
+    .snake-dot-dir-10 { fill: #831843; }
+    .snake-dot-dir-20 { fill: #9D174D; }
+    .snake-dot-dir-30 { fill: #BE185D; }
+    .snake-dot-dir-40 { fill: #DB2777; }
+    .snake-dot-dir-50 { fill: #EC4899; }
+    .snake-dot-dir-60 { fill: #F472B6; }
+    .snake-dot-dir-70 { fill: #F9A8D4; }
+    .snake-dot-dir-80 { fill: #FBCFE8; }
+    .snake-dot-dir-90 { fill: #FCE7F3; }
+    .snake-dot-dir-100 { fill: #FDF2F8; }
   </style>
 </head>
 <body>
@@ -29,7 +51,7 @@
           <v-tab>Marks Summary</v-tab>
           <v-tab>Results summary</v-tab>
           <v-tab>Reports</v-tab>
-          <!-- <v-tab>Player result</v-tab> -->
+          <v-tab>Player result</v-tab>
         </v-tabs>
       </v-app-bar>
 
@@ -294,6 +316,118 @@
               <v-row class="flex-grow-1">
                 <v-col class="d-flex" cols="12">
                   <object style="flex-grow: 1" :data="urlPdf" type="application/pdf"></object>
+                </v-col>
+              </v-row>
+            </v-tab-item>
+
+            <v-tab-item class="fill-height flex-column" :Class="tab == 4 ? 'd-flex' : ''">
+              <v-row class="flex-grow-0">
+                <v-col class="pb-0">
+                  <v-btn icon @click="showresultselects = !showresultselects"><v-icon>{{ showresultselects ? 'mdi-chevron-down' : 'mdi-chevron-right' }}</v-icon></v-btn>
+                  <span v-if="resulttoshow.player !== '' && resulttoshow.mode !== ''">{{ resulttoshow.player }} - {{ resulttoshow.mode }} - {{ resulttoshow.trial }}</span>
+                  <span v-else>Select player to show result</span>
+                </v-col>
+              </v-row>
+              <v-row class="flex-grow-0 mt-0" align="center" v-show="showresultselects">
+                <v-col cols="12" sm="3">
+                  <v-select v-model="resultselection.player"
+                    hide-details
+                    label="Player"
+                    :items="playerlist.sort()"
+                  ></v-select>
+                </v-col>
+                <v-col cols="12" sm="3">
+                  <v-select v-model="resultselection.mode"
+                    hide-details
+                    label="Mode"
+                    :items="modelist"
+                  ></v-select>
+                </v-col>
+                <v-col cols="12" sm="3">
+                  <v-select v-model="resultselection.trial"
+                    hide-details
+                    label="Trial"
+                    :items="[0,1,2,3,4]"
+                  ></v-select>
+                </v-col>
+                <v-col cols="6" sm="3">
+                  <v-btn block depressed @click="loadresult">Load</v-btn>
+                </v-col>
+              </v-row>
+              <v-row v-if="resultselectionerror.length > 0" class="flex-grow-0">
+                <v-col>
+                  <v-alert type="error" class="mb-0">{{ resultselectionerror }}</v-alert>
+                </v-col>
+              </v-row>
+              <v-row class="flex-grow-1 pt-5" no-gutters style="height:0">
+                <v-col class="d-flex flex-row justify-center pa-0" style="position:relative">
+                  <svg class="flex-grow-1" style="position:absolute;max-height:100%;width:100%;" :view-box.camel="getMazeViewBox(...mazeSettings.size)">
+                    <rect v-for="(loc,i) in getMazePadLoc(...mazeSettings.size)" :key="`box-${i}`" :x="loc[0]" :y="loc[1]" :width="mazeSettings.unit" :height="mazeSettings.unit" class="maze-pad"></rect>
+                    <template v-if="showingresult.all.length > 1">
+                      <circle v-for="(loc,i) in showingresult.all[showingresult.showingstep].problem.food_locations" :key="`food-${i}`" :cx="getCoord(loc[0])" :cy="getCoord(loc[1])" :r="mazeSettings.snakedotr" class="snake-food"></circle>
+                      <circle v-for="(loc,i) in showingresult.all[showingresult.showingstep].problem.snake_locations" :key="`snake-dot-${i}`" :cx="getCoord(loc[0])" :cy="getCoord(loc[1])" :r="mazeSettings.snakedotr" :class="`snake-${getSnakeColor(showingresult.all[showingresult.showingstep].problem.snake_locations.length,i)}`"></circle>
+
+                      <svg v-for="(dotdir,i) in getSnakeDotDirs(showingresult.all[showingresult.showingstep].problem.snake_locations, showingresult.all[showingresult.showingstep].problem.current_direction)"
+                        :key="`snake-dot-dir-${i}`"
+                        :x="getCoord(showingresult.all[showingresult.showingstep].problem.snake_locations[i][0])-mazeSettings.snakedotdirscale*mazeSettings.snakedotr"
+                        :y="getCoord(showingresult.all[showingresult.showingstep].problem.snake_locations[i][1])-mazeSettings.snakedotdirscale*mazeSettings.snakedotr"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" :width="2*mazeSettings.snakedotdirscale*mazeSettings.snakedotr" :height="2*mazeSettings.snakedotdirscale*mazeSettings.snakedotr">
+                        <path fill="none" d="M0 0h24v24H0z"/>
+                        <path :class="`snake-dot-dir-${getSnakeColor(showingresult.all[showingresult.showingstep].problem.snake_locations.length,i)}`" v-if="dotdir == 'n'" d="M12 10.828l-4.95 4.95-1.414-1.414L12 8l6.364 6.364-1.414 1.414z"/>
+                        <path :class="`snake-dot-dir-${getSnakeColor(showingresult.all[showingresult.showingstep].problem.snake_locations.length,i)}`" v-if="dotdir == 's'" d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"/>
+                        <path :class="`snake-dot-dir-${getSnakeColor(showingresult.all[showingresult.showingstep].problem.snake_locations.length,i)}`" v-if="dotdir == 'e'" d="M13.172 12l-4.95-4.95 1.414-1.414L16 12l-6.364 6.364-1.414-1.414z"/>
+                        <path :class="`snake-dot-dir-${getSnakeColor(showingresult.all[showingresult.showingstep].problem.snake_locations.length,i)}`" v-if="dotdir == 'w'" d="M10.828 12l4.95 4.95-1.414 1.414L8 12l6.364-6.364 1.414 1.414z"/>
+                      </svg>
+
+                      <polyline :points="getSolutionLine(showingresult.all[showingresult.showingstep].problem.snake_locations[0], showingresult.all[showingresult.showingstep].solution)"
+                        fill="none"
+                        stroke="#607D8B"
+                        stroke-opacity="0.7"
+                        stroke-width="5"
+                        stroke-linecap="round"
+                      >
+                      </polyline>
+                    </template>
+                  </svg>
+                </v-col>
+                <v-col cols="3" class="align-self-stretch d-flex flex-column">
+                  <v-list v-if="showingresult.all.length > 0" class="flex-grow-0" dense>
+                    <v-list-item>
+                      <v-list-item-content>
+                        <v-list-item-title>
+                          Step {{ showingresult.showingstep + 1 }}
+                        </v-list-item-title>
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item>
+                      <v-list-item-content>
+                        <v-list-item-title>
+                          Points {{ showingresult.all.length > 1 ? showingresult.all[showingresult.showingstep].result.points : '0' }}
+                        </v-list-item-title>
+                      </v-list-item-content>
+                    </v-list-item>
+                    <v-list-item two-line>
+                      <v-list-item-content>
+                        <v-list-item-title>
+                          Termination reason
+                        </v-list-item-title>
+                        <v-list-item-subtitle>
+                          {{ showingresult.all[showingresult.all.length - 1].exit }}
+                        </v-list-item-subtitle>
+                      </v-list-item-content>
+                    </v-list-item>
+                  </v-list>
+                  <v-list style="height:0;overflow:auto" class="flex-grow-1">
+                    <v-list-item-group v-model="showingresult.showingstep" active-class="teal--text">
+                      <v-list-item v-for="s in showingresult.all.length" link :key="s" v-if="s < showingresult.all.length">
+                        <template v-slot:default>
+                          <v-list-item-content>
+                            <v-list-item-title>Step {{ s }}</v-list-item-title>
+                          </v-list-item-content>
+                        </template>
+                      </v-list-item>
+                    </v-list-item-group>
+                  </v-list>
                 </v-col>
               </v-row>
             </v-tab-item>
