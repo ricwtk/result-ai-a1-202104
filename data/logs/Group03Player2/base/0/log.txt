@@ -1,1011 +1,654 @@
-[1/12] Move snake in direction e
-[2/12] Move snake in direction e
-[3/12] Move snake in direction e
-[4/12] Move snake in direction e
-[5/12] Move snake in direction e
-[6/12] Move snake in direction e
-[7/12] Move snake in direction n
-[8/12] Move snake in direction e
-[9/12] Move snake in direction n
-[10/12] Move snake in direction e
-[11/12] Move snake in direction n
-[12/12] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
-[1/1] Move snake in direction e
-[1/1] Move snake in direction w
+[1/7] Move snake in direction n
+foodloc:  [[3, 1]]
+[2/7] Move snake in direction n
+foodloc:  [[3, 1]]
+[3/7] Move snake in direction e
+foodloc:  [[3, 1]]
+[4/7] Move snake in direction n
+foodloc:  [[3, 1]]
+[5/7] Move snake in direction e
+foodloc:  [[3, 1]]
+[6/7] Move snake in direction n
+foodloc:  [[3, 1]]
+[7/7] Move snake in direction e
+foodloc:  [[3, 1]]
+[1/9] Move snake in direction e
+foodloc:  [[9, 4]]
+[2/9] Move snake in direction e
+foodloc:  [[9, 4]]
+[3/9] Move snake in direction e
+foodloc:  [[9, 4]]
+[4/9] Move snake in direction s
+foodloc:  [[9, 4]]
+[5/9] Move snake in direction e
+foodloc:  [[9, 4]]
+[6/9] Move snake in direction s
+foodloc:  [[9, 4]]
+[7/9] Move snake in direction e
+foodloc:  [[9, 4]]
+[8/9] Move snake in direction s
+foodloc:  [[9, 4]]
+[9/9] Move snake in direction e
+foodloc:  [[9, 4]]
+[1/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[2/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[3/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[4/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[5/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[6/13] Move snake in direction n
+foodloc:  [[0, 0]]
+[7/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[8/13] Move snake in direction n
+foodloc:  [[0, 0]]
+[9/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[10/13] Move snake in direction n
+foodloc:  [[0, 0]]
+[11/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[12/13] Move snake in direction n
+foodloc:  [[0, 0]]
+[13/13] Move snake in direction w
+foodloc:  [[0, 0]]
+[1/9] Move snake in direction s
+foodloc:  [[4, 5]]
+[2/9] Move snake in direction s
+foodloc:  [[4, 5]]
+[3/9] Move snake in direction e
+foodloc:  [[4, 5]]
+[4/9] Move snake in direction s
+foodloc:  [[4, 5]]
+[5/9] Move snake in direction e
+foodloc:  [[4, 5]]
+[6/9] Move snake in direction s
+foodloc:  [[4, 5]]
+[7/9] Move snake in direction e
+foodloc:  [[4, 5]]
+[8/9] Move snake in direction s
+foodloc:  [[4, 5]]
+[9/9] Move snake in direction e
+foodloc:  [[4, 5]]
+[1/2] Move snake in direction s
+foodloc:  [[5, 6]]
+[2/2] Move snake in direction e
+foodloc:  [[5, 6]]
+[1/3] Move snake in direction e
+foodloc:  [[7, 5]]
+[2/3] Move snake in direction n
+foodloc:  [[7, 5]]
+[3/3] Move snake in direction e
+foodloc:  [[7, 5]]
+[1/5] Move snake in direction w
+foodloc:  [[4, 7]]
+[2/5] Move snake in direction s
+foodloc:  [[4, 7]]
+[3/5] Move snake in direction w
+foodloc:  [[4, 7]]
+[4/5] Move snake in direction s
+foodloc:  [[4, 7]]
+[5/5] Move snake in direction w
+foodloc:  [[4, 7]]
+[1/4] Move snake in direction n
+foodloc:  [[3, 4]]
+[2/4] Move snake in direction n
+foodloc:  [[3, 4]]
+[3/4] Move snake in direction n
+foodloc:  [[3, 4]]
+[4/4] Move snake in direction w
+foodloc:  [[3, 4]]
+[1/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[2/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[3/6] Move snake in direction n
+foodloc:  [[7, 2]]
+[4/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[5/6] Move snake in direction n
+foodloc:  [[7, 2]]
+[6/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[1/7] Move snake in direction s
+foodloc:  [[6, 8]]
+[2/7] Move snake in direction s
+foodloc:  [[6, 8]]
+[3/7] Move snake in direction s
+foodloc:  [[6, 8]]
+[4/7] Move snake in direction s
+foodloc:  [[6, 8]]
+[5/7] Move snake in direction s
+foodloc:  [[6, 8]]
+[6/7] Move snake in direction s
+foodloc:  [[6, 8]]
+[7/7] Move snake in direction w
+foodloc:  [[6, 8]]
+[1/3] Move snake in direction n
+foodloc:  [[7, 6]]
+[2/3] Move snake in direction n
+foodloc:  [[7, 6]]
+[3/3] Move snake in direction e
+foodloc:  [[7, 6]]
+[1/7] Move snake in direction w
+foodloc:  [[0, 6]]
+[2/7] Move snake in direction w
+foodloc:  [[0, 6]]
+[3/7] Move snake in direction w
+foodloc:  [[0, 6]]
+[4/7] Move snake in direction w
+foodloc:  [[0, 6]]
+[5/7] Move snake in direction w
+foodloc:  [[0, 6]]
+[6/7] Move snake in direction w
+foodloc:  [[0, 6]]
+[7/7] Move snake in direction w
+foodloc:  [[0, 6]]
+[1/9] Move snake in direction e
+foodloc:  [[6, 3]]
+[2/9] Move snake in direction e
+foodloc:  [[6, 3]]
+[3/9] Move snake in direction e
+foodloc:  [[6, 3]]
+[4/9] Move snake in direction n
+foodloc:  [[6, 3]]
+[5/9] Move snake in direction e
+foodloc:  [[6, 3]]
+[6/9] Move snake in direction n
+foodloc:  [[6, 3]]
+[7/9] Move snake in direction e
+foodloc:  [[6, 3]]
+[8/9] Move snake in direction n
+foodloc:  [[6, 3]]
+[9/9] Move snake in direction e
+foodloc:  [[6, 3]]
+[1/2] Move snake in direction n
+foodloc:  [[5, 2]]
+[2/2] Move snake in direction w
+foodloc:  [[5, 2]]
+[1/4] Move snake in direction w
+foodloc:  [[1, 2]]
+[2/4] Move snake in direction w
+foodloc:  [[1, 2]]
+[3/4] Move snake in direction w
+foodloc:  [[1, 2]]
+[4/4] Move snake in direction w
+foodloc:  [[1, 2]]
+[1/8] Move snake in direction e
+foodloc:  [[6, 5]]
+[2/8] Move snake in direction e
+foodloc:  [[6, 5]]
+[3/8] Move snake in direction s
+foodloc:  [[6, 5]]
+[4/8] Move snake in direction e
+foodloc:  [[6, 5]]
+[5/8] Move snake in direction s
+foodloc:  [[6, 5]]
+[6/8] Move snake in direction e
+foodloc:  [[6, 5]]
+[7/8] Move snake in direction s
+foodloc:  [[6, 5]]
+[8/8] Move snake in direction e
+foodloc:  [[6, 5]]
+[1/6] Move snake in direction w
+foodloc:  [[0, 5]]
+[2/6] Move snake in direction w
+foodloc:  [[0, 5]]
+[3/6] Move snake in direction w
+foodloc:  [[0, 5]]
+[4/6] Move snake in direction w
+foodloc:  [[0, 5]]
+[5/6] Move snake in direction w
+foodloc:  [[0, 5]]
+[6/6] Move snake in direction w
+foodloc:  [[0, 5]]
+[1/6] Move snake in direction n
+foodloc:  [[1, 0]]
+[2/6] Move snake in direction n
+foodloc:  [[1, 0]]
+[3/6] Move snake in direction n
+foodloc:  [[1, 0]]
+[4/6] Move snake in direction n
+foodloc:  [[1, 0]]
+[5/6] Move snake in direction n
+foodloc:  [[1, 0]]
+[6/6] Move snake in direction e
+foodloc:  [[1, 0]]
+[1/4] Move snake in direction s
+foodloc:  [[2, 3]]
+[2/4] Move snake in direction s
+foodloc:  [[2, 3]]
+[3/4] Move snake in direction s
+foodloc:  [[2, 3]]
+[4/4] Move snake in direction e
+foodloc:  [[2, 3]]
+[1/3] Move snake in direction w
+foodloc:  [[0, 2]]
+[2/3] Move snake in direction n
+foodloc:  [[0, 2]]
+[3/3] Move snake in direction w
+foodloc:  [[0, 2]]
+[1/4] Move snake in direction e
+foodloc:  [[4, 2]]
+[2/4] Move snake in direction e
+foodloc:  [[4, 2]]
+[3/4] Move snake in direction e
+foodloc:  [[4, 2]]
+[4/4] Move snake in direction e
+foodloc:  [[4, 2]]
+[1/8] Move snake in direction s
+foodloc:  [[0, 6]]
+[2/8] Move snake in direction w
+foodloc:  [[0, 6]]
+[3/8] Move snake in direction s
+foodloc:  [[0, 6]]
+[4/8] Move snake in direction w
+foodloc:  [[0, 6]]
+[5/8] Move snake in direction s
+foodloc:  [[0, 6]]
+[6/8] Move snake in direction w
+foodloc:  [[0, 6]]
+[7/8] Move snake in direction s
+foodloc:  [[0, 6]]
+[8/8] Move snake in direction w
+foodloc:  [[0, 6]]
+[1/13] Move snake in direction e
+foodloc:  [[8, 1]]
+[2/13] Move snake in direction e
+foodloc:  [[8, 1]]
+[3/13] Move snake in direction e
+foodloc:  [[8, 1]]
+[4/13] Move snake in direction n
+foodloc:  [[8, 1]]
+[5/13] Move snake in direction e
+foodloc:  [[8, 1]]
+[6/13] Move snake in direction n
+foodloc:  [[8, 1]]
+[7/13] Move snake in direction e
+foodloc:  [[8, 1]]
+[8/13] Move snake in direction n
+foodloc:  [[8, 1]]
+[9/13] Move snake in direction e
+foodloc:  [[8, 1]]
+[10/13] Move snake in direction n
+foodloc:  [[8, 1]]
+[11/13] Move snake in direction e
+foodloc:  [[8, 1]]
+[12/13] Move snake in direction n
+foodloc:  [[8, 1]]
+[13/13] Move snake in direction e
+foodloc:  [[8, 1]]
+[1/7] Move snake in direction s
+foodloc:  [[9, 7]]
+[2/7] Move snake in direction s
+foodloc:  [[9, 7]]
+[3/7] Move snake in direction s
+foodloc:  [[9, 7]]
+[4/7] Move snake in direction s
+foodloc:  [[9, 7]]
+[5/7] Move snake in direction s
+foodloc:  [[9, 7]]
+[6/7] Move snake in direction s
+foodloc:  [[9, 7]]
+[7/7] Move snake in direction e
+foodloc:  [[9, 7]]
+[1/6] Move snake in direction n
+foodloc:  [[9, 1]]
+[2/6] Move snake in direction n
+foodloc:  [[9, 1]]
+[3/6] Move snake in direction n
+foodloc:  [[9, 1]]
+[4/6] Move snake in direction n
+foodloc:  [[9, 1]]
+[5/6] Move snake in direction n
+foodloc:  [[9, 1]]
+[6/6] Move snake in direction n
+foodloc:  [[9, 1]]
+[1/1] Move snake in direction w
+foodloc:  [[8, 1]]
+[1/3] Move snake in direction s
+foodloc:  [[9, 3]]
+[2/3] Move snake in direction s
+foodloc:  [[9, 3]]
+[3/3] Move snake in direction e
+foodloc:  [[9, 3]]
+[1/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[2/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[3/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[4/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[5/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[6/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[7/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[8/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[9/10] Move snake in direction s
+foodloc:  [[0, 4]]
+[10/10] Move snake in direction w
+foodloc:  [[0, 4]]
+[1/8] Move snake in direction s
+foodloc:  [[3, 9]]
+[2/8] Move snake in direction s
+foodloc:  [[3, 9]]
+[3/8] Move snake in direction s
+foodloc:  [[3, 9]]
+[4/8] Move snake in direction e
+foodloc:  [[3, 9]]
+[5/8] Move snake in direction s
+foodloc:  [[3, 9]]
+[6/8] Move snake in direction e
+foodloc:  [[3, 9]]
+[7/8] Move snake in direction s
+foodloc:  [[3, 9]]
+[8/8] Move snake in direction e
+foodloc:  [[3, 9]]
+[1/2] Move snake in direction e
+foodloc:  [[5, 9]]
+[2/2] Move snake in direction e
+foodloc:  [[5, 9]]
+[1/8] Move snake in direction n
+foodloc:  [[2, 4]]
+[2/8] Move snake in direction n
+foodloc:  [[2, 4]]
+[3/8] Move snake in direction n
+foodloc:  [[2, 4]]
+[4/8] Move snake in direction w
+foodloc:  [[2, 4]]
+[5/8] Move snake in direction n
+foodloc:  [[2, 4]]
+[6/8] Move snake in direction w
+foodloc:  [[2, 4]]
+[7/8] Move snake in direction n
+foodloc:  [[2, 4]]
+[8/8] Move snake in direction w
+foodloc:  [[2, 4]]
+[1/7] Move snake in direction e
+foodloc:  [[6, 7]]
+[2/7] Move snake in direction s
+foodloc:  [[6, 7]]
+[3/7] Move snake in direction e
+foodloc:  [[6, 7]]
+[4/7] Move snake in direction s
+foodloc:  [[6, 7]]
+[5/7] Move snake in direction e
+foodloc:  [[6, 7]]
+[6/7] Move snake in direction s
+foodloc:  [[6, 7]]
+[7/7] Move snake in direction e
+foodloc:  [[6, 7]]
+[1/11] Move snake in direction n
+foodloc:  [[2, 0]]
+[2/11] Move snake in direction n
+foodloc:  [[2, 0]]
+[3/11] Move snake in direction n
+foodloc:  [[2, 0]]
+[4/11] Move snake in direction n
+foodloc:  [[2, 0]]
+[5/11] Move snake in direction w
+foodloc:  [[2, 0]]
+[6/11] Move snake in direction n
+foodloc:  [[2, 0]]
+[7/11] Move snake in direction w
+foodloc:  [[2, 0]]
+[8/11] Move snake in direction n
+foodloc:  [[2, 0]]
+[9/11] Move snake in direction w
+foodloc:  [[2, 0]]
+[10/11] Move snake in direction n
+foodloc:  [[2, 0]]
+[11/11] Move snake in direction w
+foodloc:  [[2, 0]]
+[1/4] Move snake in direction s
+foodloc:  [[4, 2]]
+[2/4] Move snake in direction e
+foodloc:  [[4, 2]]
+[3/4] Move snake in direction s
+foodloc:  [[4, 2]]
+[4/4] Move snake in direction e
+foodloc:  [[4, 2]]
+[1/10] Move snake in direction s
+foodloc:  [[7, 9]]
+[2/10] Move snake in direction s
+foodloc:  [[7, 9]]
+[3/10] Move snake in direction s
+foodloc:  [[7, 9]]
+[4/10] Move snake in direction s
+foodloc:  [[7, 9]]
+[5/10] Move snake in direction s
+foodloc:  [[7, 9]]
+[6/10] Move snake in direction e
+foodloc:  [[7, 9]]
+[7/10] Move snake in direction s
+foodloc:  [[7, 9]]
+[8/10] Move snake in direction e
+foodloc:  [[7, 9]]
+[9/10] Move snake in direction s
+foodloc:  [[7, 9]]
+[10/10] Move snake in direction e
+foodloc:  [[7, 9]]
+[1/9] Move snake in direction w
+foodloc:  [[2, 5]]
+[2/9] Move snake in direction n
+foodloc:  [[2, 5]]
+[3/9] Move snake in direction w
+foodloc:  [[2, 5]]
+[4/9] Move snake in direction n
+foodloc:  [[2, 5]]
+[5/9] Move snake in direction w
+foodloc:  [[2, 5]]
+[6/9] Move snake in direction n
+foodloc:  [[2, 5]]
+[7/9] Move snake in direction w
+foodloc:  [[2, 5]]
+[8/9] Move snake in direction n
+foodloc:  [[2, 5]]
+[9/9] Move snake in direction w
+foodloc:  [[2, 5]]
+[1/11] Move snake in direction e
+foodloc:  [[9, 9]]
+[2/11] Move snake in direction e
+foodloc:  [[9, 9]]
+[3/11] Move snake in direction e
+foodloc:  [[9, 9]]
+[4/11] Move snake in direction s
+foodloc:  [[9, 9]]
+[5/11] Move snake in direction e
+foodloc:  [[9, 9]]
+[6/11] Move snake in direction s
+foodloc:  [[9, 9]]
+[7/11] Move snake in direction e
+foodloc:  [[9, 9]]
+[8/11] Move snake in direction s
+foodloc:  [[9, 9]]
+[9/11] Move snake in direction e
+foodloc:  [[9, 9]]
+[10/11] Move snake in direction s
+foodloc:  [[9, 9]]
+[11/11] Move snake in direction e
+foodloc:  [[9, 9]]
+[1/10] Move snake in direction n
+foodloc:  [[7, 1]]
+[2/10] Move snake in direction n
+foodloc:  [[7, 1]]
+[3/10] Move snake in direction n
+foodloc:  [[7, 1]]
+[4/10] Move snake in direction n
+foodloc:  [[7, 1]]
+[5/10] Move snake in direction n
+foodloc:  [[7, 1]]
+[6/10] Move snake in direction n
+foodloc:  [[7, 1]]
+[7/10] Move snake in direction n
+foodloc:  [[7, 1]]
+[8/10] Move snake in direction w
+foodloc:  [[7, 1]]
+[9/10] Move snake in direction n
+foodloc:  [[7, 1]]
+[10/10] Move snake in direction w
+foodloc:  [[7, 1]]
+[1/8] Move snake in direction s
+foodloc:  [[3, 5]]
+[2/8] Move snake in direction w
+foodloc:  [[3, 5]]
+[3/8] Move snake in direction s
+foodloc:  [[3, 5]]
+[4/8] Move snake in direction w
+foodloc:  [[3, 5]]
+[5/8] Move snake in direction s
+foodloc:  [[3, 5]]
+[6/8] Move snake in direction w
+foodloc:  [[3, 5]]
+[7/8] Move snake in direction s
+foodloc:  [[3, 5]]
+[8/8] Move snake in direction w
+foodloc:  [[3, 5]]
+[1/4] Move snake in direction s
+foodloc:  [[4, 8]]
+[2/4] Move snake in direction s
+foodloc:  [[4, 8]]
+[3/4] Move snake in direction s
+foodloc:  [[4, 8]]
+[4/4] Move snake in direction e
+foodloc:  [[4, 8]]
+[1/9] Move snake in direction n
+foodloc:  [[2, 1]]
+[2/9] Move snake in direction n
+foodloc:  [[2, 1]]
+[3/9] Move snake in direction n
+foodloc:  [[2, 1]]
+[4/9] Move snake in direction n
+foodloc:  [[2, 1]]
+[5/9] Move snake in direction n
+foodloc:  [[2, 1]]
+[6/9] Move snake in direction n
+foodloc:  [[2, 1]]
+[7/9] Move snake in direction w
+foodloc:  [[2, 1]]
+[8/9] Move snake in direction n
+foodloc:  [[2, 1]]
+[9/9] Move snake in direction w
+foodloc:  [[2, 1]]
+[1/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[2/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[3/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[4/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[5/6] Move snake in direction s
+foodloc:  [[7, 2]]
+[6/6] Move snake in direction e
+foodloc:  [[7, 2]]
+[1/7] Move snake in direction w
+foodloc:  [[1, 1]]
+[2/7] Move snake in direction w
+foodloc:  [[1, 1]]
+[3/7] Move snake in direction w
+foodloc:  [[1, 1]]
+[4/7] Move snake in direction w
+foodloc:  [[1, 1]]
+[5/7] Move snake in direction w
+foodloc:  [[1, 1]]
+[6/7] Move snake in direction n
+foodloc:  [[1, 1]]
+[7/7] Move snake in direction w
+foodloc:  [[1, 1]]
+[1/8] Move snake in direction e
+foodloc:  [[7, 3]]
+[2/8] Move snake in direction e
+foodloc:  [[7, 3]]
+[3/8] Move snake in direction e
+foodloc:  [[7, 3]]
+[4/8] Move snake in direction e
+foodloc:  [[7, 3]]
+[5/8] Move snake in direction s
+foodloc:  [[7, 3]]
+[6/8] Move snake in direction e
+foodloc:  [[7, 3]]
+[7/8] Move snake in direction s
+foodloc:  [[7, 3]]
+[8/8] Move snake in direction e
+foodloc:  [[7, 3]]
+[1/8] Move snake in direction w
+foodloc:  [[1, 1]]
+[2/8] Move snake in direction w
+foodloc:  [[1, 1]]
+[3/8] Move snake in direction w
+foodloc:  [[1, 1]]
+[4/8] Move snake in direction w
+foodloc:  [[1, 1]]
+[5/8] Move snake in direction n
+foodloc:  [[1, 1]]
+[6/8] Move snake in direction w
+foodloc:  [[1, 1]]
+[7/8] Move snake in direction n
+foodloc:  [[1, 1]]
+[8/8] Move snake in direction w
+foodloc:  [[1, 1]]
+[1/3] Move snake in direction s
+foodloc:  [[1, 4]]
+[2/3] Move snake in direction s
+foodloc:  [[1, 4]]
+[3/3] Move snake in direction s
+foodloc:  [[1, 4]]
+[1/2] Move snake in direction n
+foodloc:  [[0, 3]]
+[2/2] Move snake in direction w
+foodloc:  [[0, 3]]
+[1/5] Move snake in direction s
+foodloc:  [[2, 6]]
+[2/5] Move snake in direction s
+foodloc:  [[2, 6]]
+[3/5] Move snake in direction e
+foodloc:  [[2, 6]]
+[4/5] Move snake in direction s
+foodloc:  [[2, 6]]
+[5/5] Move snake in direction e
+foodloc:  [[2, 6]]
+[1/8] Move snake in direction e
+foodloc:  [[7, 9]]
+[2/8] Move snake in direction e
+foodloc:  [[7, 9]]
+[3/8] Move snake in direction s
+foodloc:  [[7, 9]]
+[4/8] Move snake in direction e
+foodloc:  [[7, 9]]
+[5/8] Move snake in direction s
+foodloc:  [[7, 9]]
+[6/8] Move snake in direction e
+foodloc:  [[7, 9]]
+[7/8] Move snake in direction s
+foodloc:  [[7, 9]]
+[8/8] Move snake in direction e
+foodloc:  [[7, 9]]
+[1/10] Move snake in direction n
+foodloc:  [[9, 1]]
+[2/10] Move snake in direction n
+foodloc:  [[9, 1]]
+[3/10] Move snake in direction n
+foodloc:  [[9, 1]]
+[4/10] Move snake in direction n
+foodloc:  [[9, 1]]
+[5/10] Move snake in direction n
+foodloc:  [[9, 1]]
+[6/10] Move snake in direction n
+foodloc:  [[9, 1]]
+[7/10] Move snake in direction n
+foodloc:  [[9, 1]]
+[8/10] Move snake in direction e
+foodloc:  [[9, 1]]
+[9/10] Move snake in direction n
+foodloc:  [[9, 1]]
+[10/10] Move snake in direction e
+foodloc:  [[9, 1]]

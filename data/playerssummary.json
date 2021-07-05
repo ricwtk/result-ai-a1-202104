@@ -578,111 +578,111 @@
     "Group03Player2": {
       "base": {
         "erroneous": "0",
-        "max": "0",
+        "max": "50",
         "informed": "TRUE",
         "trials": [
           {
-            "points": "0",
+            "points": "50",
             "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "termination reason": "points 50",
             "error": "0"
           },
           {
-            "points": "0",
+            "points": "50",
             "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "termination reason": "points 50",
             "error": "0"
           },
           {
-            "points": "0",
+            "points": "50",
             "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "termination reason": "points 50",
             "error": "0"
           },
           {
-            "points": "0",
+            "points": "50",
             "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "termination reason": "points 50",
             "error": "0"
           },
           {
-            "points": "0",
+            "points": "50",
             "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "termination reason": "points 50",
             "error": "0"
           }
         ]
       },
       "dynamic": {
         "erroneous": "0",
-        "max": "0",
+        "max": "47",
         "informed": "TRUE",
         "trials": [
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "28",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           },
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "47",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           },
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "31",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           },
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "20",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           },
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "42",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           }
         ]
       },
       "multidynamic": {
         "erroneous": "0",
-        "max": "0",
+        "max": "38",
         "informed": "TRUE",
         "trials": [
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "25",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           },
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "15",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           },
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "23",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           },
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "38",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           },
           {
-            "points": "0",
-            "gameover": "0",
-            "termination reason": "number of loops 1000",
+            "points": "23",
+            "gameover": "1",
+            "termination reason": "gameover",
             "error": "0"
           }
         ]
