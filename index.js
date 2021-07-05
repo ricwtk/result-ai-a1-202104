@@ -96,9 +96,15 @@ let vm = new Vue({
       } else { return items; }
     },
     filterresult: function (items, search) {
-      return items;
       if (search !== "") {
-
+        search = search.toLowerCase();
+        return items.filter(item => {
+          return [
+            item.name.toLowerCase().includes(search),
+            item.group.toString().includes(search),
+            `group ${item.group}`.includes(search)
+          ].some(it => it);
+        })
       } else { return items; }
     },
     loadpdf: function (name) {
