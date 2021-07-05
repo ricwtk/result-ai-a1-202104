@@ -10,7 +10,7 @@ let vm = new Vue({
     }
   },
   data: {
-    tab: 4,
+    tab: 0,
     groupsearch: "",
     marksearch: "",
     resultsearch: "",
